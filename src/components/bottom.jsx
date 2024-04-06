@@ -169,7 +169,484 @@ function bottom() {
           </div>
         </div>
       </div>
-      <div className="border-2 border-black w-4/5">right</div>
+      <div className="w-4/5 flex flex-col gap-3">
+        <div className="text-lg font-semibold">My bookings</div>
+        <div className="flex  bg-white border-2 border-gray-200 p-2 rounded-md">
+          <div className="bg-gray-200 h-fit p-3 rounded-md">
+            <svg
+              width="16"
+              height="20"
+              viewBox="0 0 16 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 3H3C1.89543 3 1 3.89543 1 5V17C1 18.1046 1.89543 19 3 19H13C14.1046 19 15 18.1046 15 17V5C15 3.89543 14.1046 3 13 3H11M5 3C5 4.10457 5.89543 5 7 5H9C10.1046 5 11 4.10457 11 3M5 3C5 1.89543 5.89543 1 7 1H9C10.1046 1 11 1.89543 11 3"
+                stroke="#6B7280"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div className="w-full mx-5">
+            <div className="flex justify-between">
+              <div className="font-semibold">Graphic design (full course)</div>
+              <div className="flex gap-2">
+                <div className="border-2 border-gray-200 px-3 py-2 rounded-lg flex items-center gap-2">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.33334 11.3333L1.33334 12.1667C1.33334 13.5474 2.45263 14.6667 3.83334 14.6667L12.1667 14.6667C13.5474 14.6667 14.6667 13.5474 14.6667 12.1667L14.6667 11.3333M11.3333 8.00001L8.00001 11.3333M8.00001 11.3333L4.66668 8.00001M8.00001 11.3333L8.00001 1.33334"
+                      stroke="#111827"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Invoice PDF
+                </div>
+                <div className="border-2 border-gray-200 px-3 py-2 rounded-lg flex items-center gap-2">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.33334 11.3333L1.33334 12.1667C1.33334 13.5474 2.45263 14.6667 3.83334 14.6667L12.1667 14.6667C13.5474 14.6667 14.6667 13.5474 14.6667 12.1667L14.6667 11.3333M11.3333 8.00001L8.00001 11.3333M8.00001 11.3333L4.66668 8.00001M8.00001 11.3333L8.00001 1.33334"
+                      stroke="#111827"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  Recipt PDF
+                </div>
+              </div>
+            </div>
+            <div className="flex gap-7">
+              <div>
+                <div className="text-gray-500">Subject</div>
+                <div className="text-gray-900">
+                  Design for intermediates - L1
+                </div>
+              </div>
+              <div>
+                <div className="text-gray-500">Sessions</div>
+                <div className="text-gray-900">10 sessions</div>
+              </div>
+              <div>
+                <div className="text-gray-500">Invoice</div>
+                <div className="text-gray-900">13</div>
+              </div>
+              <div>
+                <div className="text-gray-500">Valid till</div>
+                <div className="text-gray-900">Feb 15, 2024 (23 days left)</div>
+              </div>
+            </div>
+
+            <div className="bg-gray-100 px-5 py-3 rounded-lg flex flex-col gap-3">
+              <div>
+                <div>
+                  Balance <span className="font-semibold">6</span>
+                </div>
+                <div className="flex gap-2">
+                  <svg
+                    width="216"
+                    height="16"
+                    viewBox="0 0 216 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <rect
+                      x="20.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="20.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <rect
+                      x="40.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="40.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <rect
+                      x="60.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="60.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <rect
+                      x="80.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="80.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <rect
+                      x="100.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="100.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <rect
+                      x="120.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="120.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <rect
+                      x="140.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="140.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <rect
+                      x="160.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="160.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <rect
+                      x="180.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="180.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <rect
+                      x="200.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="white"
+                    />
+                    <rect
+                      x="200.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <div>
+                  Scheduled <span className="font-semibold">3</span>
+                </div>
+                <div>
+                  <svg
+                    width="56"
+                    height="16"
+                    viewBox="0 0 56 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="#F9FAFB"
+                    />
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8 3.125C5.3075 3.125 3.125 5.3075 3.125 8C3.125 10.6925 5.3075 12.875 8 12.875C10.6925 12.875 12.875 10.6925 12.875 8C12.875 5.3075 10.6925 3.125 8 3.125ZM8.375 5C8.375 4.90054 8.33549 4.80516 8.26516 4.73483C8.19484 4.66451 8.09946 4.625 8 4.625C7.90054 4.625 7.80516 4.66451 7.73484 4.73483C7.66451 4.80516 7.625 4.90054 7.625 5V8C7.625 8.207 7.793 8.375 8 8.375H10.25C10.3495 8.375 10.4448 8.33549 10.5152 8.26516C10.5855 8.19484 10.625 8.09946 10.625 8C10.625 7.90054 10.5855 7.80516 10.5152 7.73484C10.4448 7.66451 10.3495 7.625 10.25 7.625H8.375V5Z"
+                      fill="#6B7280"
+                    />
+                    <rect
+                      x="20.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="#F9FAFB"
+                    />
+                    <rect
+                      x="20.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M28 3.125C25.3075 3.125 23.125 5.3075 23.125 8C23.125 10.6925 25.3075 12.875 28 12.875C30.6925 12.875 32.875 10.6925 32.875 8C32.875 5.3075 30.6925 3.125 28 3.125ZM28.375 5C28.375 4.90054 28.3355 4.80516 28.2652 4.73483C28.1948 4.66451 28.0995 4.625 28 4.625C27.9005 4.625 27.8052 4.66451 27.7348 4.73483C27.6645 4.80516 27.625 4.90054 27.625 5V8C27.625 8.207 27.793 8.375 28 8.375H30.25C30.3495 8.375 30.4448 8.33549 30.5152 8.26516C30.5855 8.19484 30.625 8.09946 30.625 8C30.625 7.90054 30.5855 7.80516 30.5152 7.73484C30.4448 7.66451 30.3495 7.625 30.25 7.625H28.375V5Z"
+                      fill="#6B7280"
+                    />
+                    <rect
+                      x="40.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="#F9FAFB"
+                    />
+                    <rect
+                      x="40.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#D1D5DB"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M48 3.125C45.3075 3.125 43.125 5.3075 43.125 8C43.125 10.6925 45.3075 12.875 48 12.875C50.6925 12.875 52.875 10.6925 52.875 8C52.875 5.3075 50.6925 3.125 48 3.125ZM48.375 5C48.375 4.90054 48.3355 4.80516 48.2652 4.73483C48.1948 4.66451 48.0995 4.625 48 4.625C47.9005 4.625 47.8052 4.66451 47.7348 4.73483C47.6645 4.80516 47.625 4.90054 47.625 5V8C47.625 8.207 47.793 8.375 48 8.375H50.25C50.3495 8.375 50.4448 8.33549 50.5152 8.26516C50.5855 8.19484 50.625 8.09946 50.625 8C50.625 7.90054 50.5855 7.80516 50.5152 7.73484C50.4448 7.66451 50.3495 7.625 50.25 7.625H48.375V5Z"
+                      fill="#6B7280"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                <div className="text-green-500">
+                  Attended{" "}
+                  <span className="font-semibold text-green-600">5</span>
+                </div>
+                <div>
+                  <svg
+                    width="96"
+                    height="16"
+                    viewBox="0 0 96 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="#D1FAE5"
+                    />
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#6EE7B7"
+                    />
+                    <path
+                      d="M12.207 4.793C12.3945 4.98053 12.4998 5.23484 12.4998 5.5C12.4998 5.76516 12.3945 6.01947 12.207 6.207L7.207 11.207C7.01947 11.3945 6.76516 11.4998 6.5 11.4998C6.23483 11.4998 5.98052 11.3945 5.793 11.207L3.793 9.207C3.61084 9.0184 3.51004 8.7658 3.51232 8.5036C3.5146 8.2414 3.61977 7.99059 3.80518 7.80518C3.99058 7.61977 4.2414 7.5146 4.50359 7.51233C4.76579 7.51005 5.01839 7.61084 5.20699 7.793L6.5 9.086L10.793 4.793C10.9805 4.60553 11.2348 4.50021 11.5 4.50021C11.7652 4.50021 12.0195 4.60553 12.207 4.793Z"
+                      fill="#008638"
+                    />
+                    <rect
+                      x="20.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="#D1FAE5"
+                    />
+                    <rect
+                      x="20.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#6EE7B7"
+                    />
+                    <path
+                      d="M32.207 4.793C32.3945 4.98053 32.4998 5.23484 32.4998 5.5C32.4998 5.76516 32.3945 6.01947 32.207 6.207L27.207 11.207C27.0195 11.3945 26.7652 11.4998 26.5 11.4998C26.2348 11.4998 25.9805 11.3945 25.793 11.207L23.793 9.207C23.6108 9.0184 23.51 8.7658 23.5123 8.5036C23.5146 8.2414 23.6198 7.99059 23.8052 7.80518C23.9906 7.61977 24.2414 7.5146 24.5036 7.51233C24.7658 7.51005 25.0184 7.61084 25.207 7.793L26.5 9.086L30.793 4.793C30.9805 4.60553 31.2348 4.50021 31.5 4.50021C31.7652 4.50021 32.0195 4.60553 32.207 4.793Z"
+                      fill="#008638"
+                    />
+                    <rect
+                      x="40.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="#D1FAE5"
+                    />
+                    <rect
+                      x="40.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#6EE7B7"
+                    />
+                    <path
+                      d="M52.207 4.793C52.3945 4.98053 52.4998 5.23484 52.4998 5.5C52.4998 5.76516 52.3945 6.01947 52.207 6.207L47.207 11.207C47.0195 11.3945 46.7652 11.4998 46.5 11.4998C46.2348 11.4998 45.9805 11.3945 45.793 11.207L43.793 9.207C43.6108 9.0184 43.51 8.7658 43.5123 8.5036C43.5146 8.2414 43.6198 7.99059 43.8052 7.80518C43.9906 7.61977 44.2414 7.5146 44.5036 7.51233C44.7658 7.51005 45.0184 7.61084 45.207 7.793L46.5 9.086L50.793 4.793C50.9805 4.60553 51.2348 4.50021 51.5 4.50021C51.7652 4.50021 52.0195 4.60553 52.207 4.793Z"
+                      fill="#008638"
+                    />
+                    <rect
+                      x="60.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="#D1FAE5"
+                    />
+                    <rect
+                      x="60.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#6EE7B7"
+                    />
+                    <path
+                      d="M72.207 4.793C72.3945 4.98053 72.4998 5.23484 72.4998 5.5C72.4998 5.76516 72.3945 6.01947 72.207 6.207L67.207 11.207C67.0195 11.3945 66.7652 11.4998 66.5 11.4998C66.2348 11.4998 65.9805 11.3945 65.793 11.207L63.793 9.207C63.6108 9.0184 63.51 8.7658 63.5123 8.5036C63.5146 8.2414 63.6198 7.99059 63.8052 7.80518C63.9906 7.61977 64.2414 7.5146 64.5036 7.51233C64.7658 7.51005 65.0184 7.61084 65.207 7.793L66.5 9.086L70.793 4.793C70.9805 4.60553 71.2348 4.50021 71.5 4.50021C71.7652 4.50021 72.0195 4.60553 72.207 4.793Z"
+                      fill="#008638"
+                    />
+                    <rect
+                      x="80.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      fill="#FEE2E2"
+                    />
+                    <rect
+                      x="80.5"
+                      y="0.5"
+                      width="15"
+                      height="15"
+                      rx="3.5"
+                      stroke="#FCA5A5"
+                    />
+                    <path
+                      d="M85 11L91 5M85 5L91 11"
+                      stroke="#B91C1C"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
