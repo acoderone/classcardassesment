@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h-custom1 {
+  height: 23%;
+}
+
+.h-custom2 {
+  height: 77%;
+}
+
+.w-custom1 {
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+}
+
+.custom1 {
+  width: 445px;
+}
+
+.custom2 {
+  padding: 8px 12px;
+}
